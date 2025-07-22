@@ -1,0 +1,94 @@
+@media screen and (max-width: 500px){
+    .header-main .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .header-main{
+        height: 60px;
+    }
+    .header-big .container{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .header-big .container .table{
+        text-align:center;
+    }
+    .header-middle .container{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-middle .container .about{
+        margin-top: -39px;
+    }
+    .header-middle .container .image img{
+        display:none;
+    }
+    .our-menu .menus ul{
+      display: grid;
+      grid-template-columns:auto auto;
+    }
+    .our-menu .menus ul li{
+        margin-left: -35px;
+    }
+    #cakes .cakes-cheescakes{
+        display: flex;
+        flex-direction:column;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -420px;
+    }
+    #icecream .icecream{
+        display: flex;
+        flex-direction:column;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -420px;
+    }
+    #pastries .pastries{
+        display: flex;
+        flex-direction:column;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -420px;
+    }
+    #drinks .drinks{
+        display: flex;
+        flex-direction:column;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -420px;
+    }
+    .finally{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+       height: 850px;
+    }
+    .finally .header-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .finally .result{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 30px;
+    }
+}

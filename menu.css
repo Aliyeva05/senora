@@ -1,0 +1,1052 @@
+.header-main{
+    background-color:#ffe3ef;
+    width: 100%;
+    height: 40px;
+}
+.header-main .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-main .socail-media{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color:#1e1e1e;
+    margin-top: 5px;
+}
+.header-main .socail-media .phone i{
+    padding-right: 6px;
+}
+.header-main .socail-media .mail i{
+    padding-right: 6px;
+}
+.header-main .fonts i{
+    font-size: 17px;
+    padding-left: 10px;
+    color:#1e1e1e;
+    margin-top: 10px;
+}
+.header-main .fonts i:hover{
+    color:#cc2474;
+}
+.header-big .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 200px;
+    margin-top: 20px;
+}
+.header-big .container .main{
+    display: flex;
+    flex-direction: row;
+}
+.header-big .container .main i{
+    font-size: 43px;
+    color: #FC0FC0;
+}
+.header-big .container .main h1{
+    margin-left: 15px;
+    color:rgb(50, 50, 50);
+    font-style: italic;
+}
+.header-big .container .lists ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 6px;
+}
+.header-big .container .lists ul li{
+    list-style: none;
+    transition: all 0.5s ease;
+}
+.header-big .container .lists ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding: 13px;
+}
+.header-big .container .lists ul li:hover{
+    transform:translateY(-3px);
+}
+.header-big .container .lists ul li a:hover{
+    background-color:#cc2474;
+    border-radius: 17px;
+    color: white;
+}
+.header-big .container .table button{
+  background-color: transparent;
+  border: 2px solid #ff2e93;
+  padding: 8px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.header-big .container .table button a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.header-big .container .table button:hover{
+    transform: scale(1.1);
+    background-color: #ff2e93;
+}
+.header-big .container .table button a:hover{
+    color: white;
+}
+.our-menu h1{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.our-menu p{
+    margin-top: 30px;
+    text-align: center;
+}
+.our-menu .menus ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    align-items: center;
+}
+.our-menu .menus ul:hover{
+    color: white;
+}
+.our-menu .menus ul li{
+    list-style: none;
+    border-radius: 10px;
+    padding: 7px;
+    border: 2px solid rgb(174, 170, 170);
+}
+.our-menu .menus ul li:hover{
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.our-menu .menus ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 14px;
+}
+.our-menu .menus ul li a:hover{
+    background-color: #cc2474;
+    color: white;
+    border-radius: 10px;
+}
+#cakes h1{
+    margin-top: 56px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 43px;
+}
+.cakes-cheescakes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 43px;
+    margin-left: 100px;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+.cakes-cheescakes .strawberry{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .strawberry img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .strawberry h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .strawberry p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .strawberry p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .oreo{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .oreo img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .oreo h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .oreo p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .oreo p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .carrot{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .carrot img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .carrot h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .carrot p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .carrot p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.cakes-cheescakes .dubai{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .dubai img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .dubai h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .dubai p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .dubai p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .chocolate{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .chocolate img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .chocolate h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .chocolate p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .chocolate p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .orange{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .orange img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .orange h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .orange p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .orange p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .no-vegan{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .no-vegan img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .no-vegan h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .no-vegan p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .no-vegan p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.cakes-cheescakes .blueberry{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.cakes-cheescakes .blueberry img{
+    border-radius: 7px;
+}
+.cakes-cheescakes .blueberry h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.cakes-cheescakes .blueberry p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cakes-cheescakes .blueberry p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+#icecream h1{
+    margin-top: 83px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.icecream{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 100px;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+.icecream .chocolateicecream{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .chocolateicecream img{
+    border-radius: 7px;
+}
+.icecream .chocolateicecream h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .chocolateicecream p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .chocolateicecream p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .stracciatella{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .stracciatella img{
+    border-radius: 7px;
+}
+.icecream .stracciatella h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .stracciatella p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .stracciatella p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .buttermilk{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .buttermilk img{
+    border-radius: 7px;
+}
+.icecream .buttermilk h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .buttermilk p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .buttermilk p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .fruit{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .fruit img{
+    border-radius: 7px;
+}
+.icecream .fruit h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .fruit p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .fruit p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .strawberry-gelato{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .strawberry-gelato img{
+    border-radius: 7px;
+}
+.icecream .strawberry-gelato h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .strawberry-gelato p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .strawberry-gelato p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .mango{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .mango img{
+    border-radius: 7px;
+}
+.icecream .mango h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .mango p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .mango p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .watermelon{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .watermelon img{
+    border-radius: 7px;
+}
+.icecream .watermelon h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .watermelon p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .watermelon p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.icecream .whitechocolate{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.icecream .whitechocolate img{
+    border-radius: 7px;
+}
+.icecream .whitechocolate h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.icecream .whitechocolate p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icecream .whitechocolate p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+#pastries h1{
+    margin-top: 83px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.pastries{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 100px;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+.pastries .apple-tart{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .apple-tart img{
+    border-radius: 7px;
+}
+.pastries .apple-tart h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .apple-tart p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .apple-tart p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .mushroom{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .mushroom img{
+    border-radius: 7px;
+}
+.pastries .mushroom h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .mushroom p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .mushroom p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .jam{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .jam img{
+    border-radius: 7px;
+}
+.pastries .jam h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .jam p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .jam p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .rastberry{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .rastberry img{
+    border-radius: 7px;
+}
+.pastries .rastberry h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .rastberry p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .rastberry p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .coconut{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .coconut img{
+    border-radius: 7px;
+}
+.pastries .coconut h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .coconut p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .coconut p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .danish{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .danish img{
+    border-radius: 7px;
+}
+.pastries .danish h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .danish p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .danish p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .apricot{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .apricot img{
+    border-radius: 7px;
+}
+.pastries .apricot h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .apricot p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .apricot p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+.pastries .rum{
+    width: 258px;
+    height: 420px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.pastries .rum img{
+    border-radius: 7px;
+}
+.pastries .rum h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.pastries .rum p{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pastries .rum p:last-child{
+    font-weight: normal;
+    margin-top: 20px;
+}
+#drinks h1{
+    margin-top: 83px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.drinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-left: 100px;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+.drinks .latte{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .latte img{
+    border-radius: 7px;
+}
+.drinks .latte h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .latte p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .cappuccino{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .cappuccino img{
+    border-radius: 7px;
+}
+.drinks .cappuccino h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .cappuccino p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .mocha{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .mocha img{
+    border-radius: 7px;
+}
+.drinks .mocha h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .mocha p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .macchiato{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .macchiato img{
+    border-radius: 7px;
+}
+.drinks .macchiato h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .macchiato p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .starbucks{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .starbucks img{
+    border-radius: 7px;
+}
+.drinks .starbucks h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .starbucks p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .mango-cold{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .mango-cold img{
+    border-radius: 7px;
+}
+.drinks .mango-cold h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .mango-cold p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.drinks .bubble-tea{
+    width: 258px;
+    height: 370px;
+    border-radius: 7px;
+    border: 2px solid rgb(224, 219, 219);
+}
+.drinks .bubble-tea img{
+    border-radius: 7px;
+}
+.drinks .bubble-tea h4{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+.drinks .bubble-tea p{
+    text-align: center;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finally{
+    background-color:#ffe3ef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 80px;
+    height: 550px;
+}
+.finally .header-final{
+    width: 320px;
+    margin-top: -150px;
+}
+.finally .header-final .cake-candles{
+    display: flex;
+    flex-direction: row;
+}
+.finally .header-final .cake-candles i{
+    color: #FC0FC0;
+    font-size: 44px;
+    margin-top: 4px;
+}
+.finally .header-final .cake-candles h1{
+    margin-left: 8px;
+    font-style: italic;
+}
+.finally .header-final p{
+    margin-top: 13px;
+}
+.finally .header-final .socail-media-fonts a{
+    text-decoration: none;
+    color: black;
+}
+.finally .header-final .socail-media-fonts i{
+    font-size: 23px;
+    padding-left: 12px;
+    transition: all 0.3s ease;
+}
+.finally .header-final .socail-media-fonts i:hover{
+    color:#cc2474;
+    transform: scale(1.4);
+}
+.finally .page h5{
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 34px;
+}
+.finally .page ul{
+    margin-top: 20px;
+}
+.finally .page ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.finally .utility-pages ul{
+    margin-top: 20px;
+}
+.finally .utility-pages h5{
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 34px;
+}
+.finally .utility-pages ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.finally .result{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}

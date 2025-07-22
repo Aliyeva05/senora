@@ -1,0 +1,296 @@
+.header-main{
+    background-color:#ffe3ef;
+    width: 100%;
+    height: 40px;
+}
+.header-main .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header-main .socail-media{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color:#1e1e1e;
+    margin-top: 5px;
+}
+.header-main .socail-media .phone i{
+    padding-right: 6px;
+}
+.header-main .socail-media .mail i{
+    padding-right: 6px;
+}
+.header-main .fonts i{
+    font-size: 17px;
+    padding-left: 10px;
+    color:#1e1e1e;
+    margin-top: 10px;
+}
+.header-main .fonts i:hover{
+    color:#cc2474;
+}
+.header-big .container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    gap: 200px;
+    margin-top: 20px;
+}
+.header-big .container .main{
+    display: flex;
+    flex-direction: row;
+}
+.header-big .container .main i{
+    font-size: 43px;
+    color: #FC0FC0;
+}
+.header-big .container .main h1{
+    margin-left: 15px;
+    color:rgb(50, 50, 50);
+    font-style: italic;
+}
+.header-big .container .lists ul{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    padding-top: 6px;
+}
+.header-big .container .lists ul li{
+    list-style: none;
+    transition: all 0.5s ease;
+}
+.header-big .container .lists ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    padding: 13px;
+}
+.header-big .container .lists ul li:hover{
+    transform:translateY(-3px);
+}
+.header-big .container .lists ul li a:hover{
+    background-color:#cc2474;
+    border-radius: 17px;
+    color: white;
+}
+.header-big .container .table button{
+  background-color: transparent;
+  border: 2px solid #ff2e93;
+  padding: 8px;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+.header-big .container .table button a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.header-big .container .table button:hover{
+    transform: scale(1.1);
+    background-color: #ff2e93;
+}
+.header-big .container .table button a:hover{
+    color: white;
+}
+.contact-us{
+    background-color: rgb(235, 233, 233);
+    height: 500px;
+    margin-top: 30px;
+}
+.contact-us .header-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-us .header-contact h1{
+    margin-top: 60px;
+    font-size: 65px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-us .form{
+    background-color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+    width: 630px;
+    margin-left: 500px;
+    border-radius: 20px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+.contact-us .form .header-input{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.contact-us .form .header-input .name{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .form .header-input .name label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-us .form .header-input .name input{
+    padding: 10px;
+    width: 270px;
+    border-radius: 29px;
+    border: 1px solid grey;
+}
+.contact-us .form .header-input .email{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .form .header-input .email label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-us .form .header-input .email input{
+    padding: 10px;
+    width: 270px;
+    border-radius: 29px;
+    border: 1px solid grey;
+}
+.contact-us .form .textmessage .subject{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .form .textmessage .subject label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.contact-us .form .textmessage .subject input{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 29px;
+    width: 590px;
+}
+.contact-us .form .textmessage .message{
+    display: flex;
+    flex-direction: column;
+}
+.contact-us .form .textmessage .message label{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contact-us .form .textmessage .message input{
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 29px;
+    width: 590px;
+}
+.contact-us .button{
+    margin-top: 30px;
+}
+.contact-us .button button{
+    padding: 8px;
+    border: 1px solid rgb(129, 23, 23);
+    background-color:rgb(129, 23, 23);
+    color: white;
+    border-radius: 29px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    width: 590px;
+}
+.contact-about{
+    margin-top: 190px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.contact-about .call p{
+    color:rgb(148, 27, 27);
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-about .hours{
+    margin-top: 30px;
+}
+.contact-about .hours p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.contact-about .location{
+    margin-top: 50px;
+}
+.contact-about .location p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.finally{
+    background-color:#ffe3ef;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    margin-top: 80px;
+    height: 550px;
+}
+.finally .header-final{
+    width: 320px;
+    margin-top: -150px;
+}
+.finally .header-final .cake-candles{
+    display: flex;
+    flex-direction: row;
+}
+.finally .header-final .cake-candles i{
+    color: #FC0FC0;
+    font-size: 44px;
+    margin-top: 4px;
+}
+.finally .header-final .cake-candles h1{
+    margin-left: 8px;
+    font-style: italic;
+}
+.finally .header-final p{
+    margin-top: 13px;
+}
+.finally .header-final .socail-media-fonts a{
+    text-decoration: none;
+    color: black;
+}
+.finally .header-final .socail-media-fonts i{
+    font-size: 23px;
+    padding-left: 12px;
+    transition: all 0.3s ease;
+}
+.finally .header-final .socail-media-fonts i:hover{
+    color:#cc2474;
+    transform: scale(1.4);
+}
+.finally .page h5{
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 34px;
+}
+.finally .page ul{
+    margin-top: 20px;
+}
+.finally .page ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.finally .utility-pages ul{
+    margin-top: 20px;
+}
+.finally .utility-pages h5{
+    font-weight: bold;
+    margin-top: -100px;
+    margin-left: 34px;
+}
+.finally .utility-pages ul li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.finally .result{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+}

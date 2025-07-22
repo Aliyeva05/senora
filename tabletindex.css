@@ -1,0 +1,90 @@
+@media screen and (min-width: 501px) and (max-width: 1024px){
+    .header-main .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+     .header-main{
+        height: 60px;
+    }
+    .header-big .container{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .header-big .container .table{
+        text-align:center;
+    }
+    .best-food .image{
+      margin-top: 20px;
+      position: relative;
+    }
+    .best-food .image img{
+        height: 600px;
+    }
+    .best-food .best-food-text{
+      width: 420px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 490px;
+      right: inherit;
+      left: 180px;
+    }
+    .header-middle .container{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+     .event-services h2{
+        margin-left: 10px;
+    }
+    .event-services .service{
+       display: grid;
+       grid-template-columns: auto auto;
+    }
+     .delivery .container{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+    }
+    .delivery .container .delivery-text .first-text{
+        width: 700px;
+    }
+    .comments .container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .comments .container .first-comments{
+        width: 300px;
+    }
+    .finally{
+       display: flex;
+       flex-direction:row;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+       height: 850px;
+    }
+    .finally .header-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .finally .result{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 30px;
+       
+    }
+}

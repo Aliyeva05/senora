@@ -1,0 +1,95 @@
+@media screen and (max-width: 500px){
+    .header-main .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .header-main{
+        height: 60px;
+    }
+    .header-big .container{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .header-big .container .table{
+        text-align:center;
+    }
+    .best-food .image{
+      margin-top: 20px;
+      position: relative;
+    }
+    .best-food .image img{
+        height: 600px;
+    }
+    .best-food .best-food-text{
+      width: 420px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 490px;
+      right: inherit;
+      left: 20px;
+    }
+    .best-food .best-food-text h1{
+        font-size: 50px;
+    }
+    .header-middle .container{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+    }
+    .event-services h2{
+        width: 370px;
+        margin-left: 5px;
+    }
+    .event-services .service{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+    }
+    .delivery .container{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+    }
+    .delivery .container .image img{
+      display: none;
+    }
+    .comments .container{
+        margin-top: 50px;
+       display:flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+    }
+    .finally{
+       display: flex;
+       flex-direction:column;
+       justify-content: center;
+       align-items: center;
+       height: 850px;
+    }
+    .finally .header-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .finally .result{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 30px;
+    }
+
+}

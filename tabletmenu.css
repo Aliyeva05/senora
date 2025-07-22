@@ -1,0 +1,82 @@
+@media screen and (min-width: 501px) and (max-width: 1024px){
+    .header-main .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+     .header-main{
+        height: 60px;
+    }
+    .header-big .container{
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .header-big .container .table{
+        text-align:center;
+    }
+    .our-menu .menus ul{
+      display: grid;
+      grid-template-columns:auto auto;
+    }
+     #cakes .cakes-cheescakes{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -220px;
+    }
+    #icecream .icecream{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -220px;
+    }
+    #pastries .pastries{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -220px;
+    }
+    #drinks .drinks{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 43px;
+        width: 1300px;
+        flex-wrap: nowrap;
+        margin-left: -220px;
+    }
+    .finally{
+       display: flex;
+       flex-direction:row;
+       justify-content: center;
+       align-items: center;
+       gap: 30px;
+       height: 850px;
+    }
+    .finally .header-final{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+    }
+    .finally .result{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        margin-top: 30px;
+       
+    }
+}
