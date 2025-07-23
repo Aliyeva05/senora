@@ -20,40 +20,40 @@
         text-align:center;
     }
     .contact-us .form{
-      width: 420px;
-      margin-left: 20px;
+      width: 380px;
+      margin-left: 25px;
     }
     .contact-us .header-contact p{
       text-align: center;
       margin: 14px;
     }
     .contact-us .form .header-input .date input{
-      width: 180px;
+      width: 150px;
       padding: 8px;
       font-size: 14px;
     }
     .contact-us .form .header-input .time input{
-      width: 180px;
+      width: 150px;
       padding: 8px;
       font-size: 14px;
     }
     .contact-us .form .name-phone .name input{
-      width: 180px;
+      width: 150px;
       padding: 8px;
       font-size: 14px;
     }
     .contact-us .form .name-phone .phone input{
-       width: 180px;
+       width: 150px;
       padding: 8px;
       font-size: 14px;
     }
     .contact-us .form .total-person .person input{
-       width: 390px;
+       width: 340px;
       padding: 8px;
       font-size: 14px;
     }
     .contact-us .button button{
-      width: 390px;
+      width: 340px;
     }
     .finally{
        display: flex;
