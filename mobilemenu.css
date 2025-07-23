@@ -42,33 +42,29 @@
         display: flex;
         flex-direction:column;
         margin-top: 43px;
-        width: 1300px;
+        width: 250px;
         flex-wrap: nowrap;
-        margin-left: -420px;
     }
     #icecream .icecream{
         display: flex;
         flex-direction:column;
         margin-top: 43px;
-        width: 1300px;
+        width: 250px;
         flex-wrap: nowrap;
-        margin-left: -420px;
     }
     #pastries .pastries{
         display: flex;
         flex-direction:column;
         margin-top: 43px;
-        width: 1300px;
+        width: 250px;
         flex-wrap: nowrap;
-        margin-left: -420px;
     }
     #drinks .drinks{
         display: flex;
         flex-direction:column;
         margin-top: 43px;
-        width: 1300px;
+        width: 250px;
         flex-wrap: nowrap;
-        margin-left: -420px;
     }
     .finally{
        display: flex;
